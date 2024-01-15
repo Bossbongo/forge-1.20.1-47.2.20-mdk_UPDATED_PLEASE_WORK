@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "alloza_mod:eggot_block"
+    }
+  ],
+  "result": {
+    "item": "alloza_mod:eggot",
+    "count": 9
+  }
+}
