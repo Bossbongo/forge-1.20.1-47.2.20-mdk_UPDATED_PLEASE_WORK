@@ -58,6 +58,9 @@ public class AllozaMod {
         if (event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlocks.EGGOT_BLOCK);
         }
+        if (event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept((ModItems.PLANT_GROWER));
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call

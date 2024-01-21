@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alloza_mod:item/plant_grower"
+  }
+}

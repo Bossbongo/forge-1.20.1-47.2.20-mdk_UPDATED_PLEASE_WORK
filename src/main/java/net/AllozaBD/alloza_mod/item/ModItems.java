@@ -1,6 +1,7 @@
 package net.AllozaBD.alloza_mod.item;
 
 import net.AllozaBD.alloza_mod.AllozaMod;
+import net.AllozaBD.alloza_mod.item.custom.PlantGrowerItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -16,6 +17,9 @@ public class ModItems {
 
     public static final RegistryObject<Item> CRACKED_EGGOT = ITEMS.register("cracked_eggot",
             () -> new Item(new Item.Properties()));
+
+    public static final RegistryObject<Item> PLANT_GROWER = ITEMS.register("plant_grower",
+            () -> new PlantGrowerItem(new Item.Properties().durability(16)));
 
     public static void register (IEventBus eventBus) {
         ITEMS.register(eventBus);
